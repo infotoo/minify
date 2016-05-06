@@ -119,6 +119,14 @@ switch ( $file_ext )
 	case 'less':
 		$minize_type = 'css';
 		$SKIP_MACRO = true;
+		if ( $outdir == null )
+		{
+			$testdir = dirname($file_source).'/../css/';
+			if ( file_exists($testdir) and is_writable($testdir) )
+			{
+				$outdir = $testdir;
+			}
+		}
 		break;
 
 }
