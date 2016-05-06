@@ -35,7 +35,7 @@ define('BIN_LESSC', '/home/bin/lessc');
 define('BIN_JAVA', '/usr/bin/java');
 
 #path to YUI Compressor
-define('BIN_YUI_COMPRESSOR', '/home/bin/lib/yuicompressor-2.4.8.jar');
+define('BIN_YUI_COMPRESSOR', '/home/lib/yuicompressor/yuicompressor-2.4.8.jar');
 
 #path to Gzip Minimized
 define('BIN_GZIP_MINIMIZED', '/home/bin/gzip-minimized');
